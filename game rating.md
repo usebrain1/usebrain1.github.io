@@ -1,31 +1,43 @@
-## This can be your internal website page / project page
+## Region vs. Game Rating - Chi-Square Test 
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** The objective of this project is to determine if there are any relationship between the regions where games were made vs. the ratings that such games received from Singapore's Infocomm Media Development Authority (IMDA).
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Data
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+First, let's have a look at our dataset. 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<img src="images/game_rating_dataset.png?raw=true"/>
 
-### 2. Assess assumptions on which statistical inference will be based
+### 2. Rows containing multiple regions
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+Given that the region column is one of the factors that we want to analyse, we should call the unique() method to understand what are the unique values under the region column. 
 
-### 3. Support the selection of appropriate statistical tools and techniques
+<img src="images/unique_region_names.png?raw=true"/>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Note that some games were produced in multiple regions (e.g. EURO, US). For such cases, we want to split them into 2 rows, each row containing only 1 region. This is to facilitate our subsequent hypothesis testing where we do not want categories such as (EURO, US).
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### 3. Split regions by ',' and create a list of regions for each row
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+To do that, we call the string split() method to create a list of regions. Example, 'EURO, US' will become [EURO, US]. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<img src="images/split_by_comma_create_region_list.png?raw=true"/>
+
+### 4. Explode the rows
+
+Next, we can call the explode() method to split rows with 2 regions into 2 separate rows. Now, we will no longer see a combination of regions (e.g. EURO, US) as a unique value under the region column.
+
+<img src="images/explode_new_unique_regions.png?raw=true"/>
+
+### 5. Check unique values for rating column
+
+Let's also check the unique values for the rating column to ensure that the data is okay before we proceed.
+
+<img src="images/unique_rating.png?raw=true"/>
+
+### 6. Chi-square test
+
+Finally, we can proceed with the chi-square test to determine if there is a relationship between the regions where games were produced vs. the ratings that such games received. 
+
+<img src="images/region_rating_chi square test.png?raw=true"/>
+
+Given that the p value is higher than 0.05, we fail to reject the null hypothesis. We can conclude that there is no relationship between the region and game rating.
