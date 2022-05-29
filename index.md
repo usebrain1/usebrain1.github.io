@@ -1,10 +1,10 @@
-## Portfolio
+## My Data Science Journey
 
 ---
 
-### Category Name 1 
+### Practice Makes Perfect 
 
-[Project 1 Title](/sample_page)
+[Hypothesis Testing - Housing Price Data](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
