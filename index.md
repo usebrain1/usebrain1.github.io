@@ -5,7 +5,25 @@
 ### Practice Makes Perfect 
 
 [Hypothesis Testing - Housing Price Data](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Import Modules.png?raw=true"/>
+<img src="images/Reading CSV.png?raw=true"/>
+<img src="images/Review Data.png?raw=true"/>
+<img src="images/Get Column Names.png?raw=true"/>
+<img src="images/Plot Distribution of Sale Price.png?raw=true"/>
+<img src="images/Data Neighborhood Data Count.png?raw=true"/>
+<img src="images/import z test.png?raw=true"/>
+<img src="images/z test 1.png?raw=true"/>
+<img src="images/z test 2.png?raw=true"/>
+<img src="images/cdf probability.png?raw=true"/>
+<img src="images/Independent Samples t test.png?raw=true"/>
+<img src="images/1 sample t test.png?raw=true"/>
+<img src="images/Looping 1 sample t test for all neighbourhoods.png?raw=true"/>
+<img src="images/plot count of house built in each year.png?raw=true"/>
+<img src="images/Independent Samples t test (price of house before and after 1960).png?raw=true"/>
+<img src="images/chi square test (freq table).png?raw=true"/>
+<img src="images/chi square test (box plot).png?raw=true"/>
+<img src="images/One way Anova.png?raw=true"/>
+
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
