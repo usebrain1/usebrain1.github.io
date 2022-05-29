@@ -12,7 +12,7 @@
 <img src="images/city payroll_city payroll data.png?raw=true"/>
 
 ---
-[Data Preprocessing - Game Rating Data from Data.gov.sg](/game rating)
+[Chi-Square Test - Game Rating Data from Data.gov.sg](/game rating)
 <img src="images/count_of_game_rating_by_region.png?raw=true"/>
 
 ---
