@@ -27,12 +27,16 @@ To remove the dollar symbol, we can call the string replace() method to replace 
 To convert data to float, we can call the pandas DataFrame.astype() method.
 
 <u>Removing dollar sign</u>
+
 <img src="images/city payroll_remove dollar sign symbol.png?raw=true"/>
 
 <u>Converting data to float</u>
+
 <img src="images/city payroll_convert datatype to float.png?raw=true"/>
 
 <u>Data converted to float</u>
+
 <img src="images/city payroll_after converting datatype to float.png?raw=true"/>
+
 
 Now, we can proceed to perform the hypothesis tests.
