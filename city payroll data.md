@@ -15,9 +15,10 @@ We can see that there are quite a number of missing values in the Payroll Depart
 To ensure that every column has similar number of non-null rows to facilitate our analysis, we can call the pd.notnull() method to filter out rows with null values.
 
 <img src="images/city payroll_filter null.png?raw=true"/>
-<img src="images/city payroll_city payroll info (after filtering null).png?raw=true"/>
 
 Now, every column has 231463 non-null rows.
+
+<img src="images/city payroll_city payroll info (after filtering null).png?raw=true"/>
 
 ### 3. Removing $ symbol and convert data to float
 
