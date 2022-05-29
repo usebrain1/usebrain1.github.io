@@ -22,8 +22,8 @@ Now, every column has 231463 non-null rows.
 
 ### 3. Removing $ symbol and convert data to float
 
-We will also need to remove the $ symbol and convert the salary data to float before we proceed to conduct the hypothesis tests.
-To remove the $ symbol, we can call the string replace() method to replace $ with blank.
+We will also need to remove the dollar symbol and convert the salary data to float before we proceed to conduct the hypothesis tests.
+To remove the dollar symbol, we can call the string replace() method to replace $ with blank.
 To convert data to float, we can call the pandas DataFrame.astype() method.
 
 <u>Removing dollar sign</u>
