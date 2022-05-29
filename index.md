@@ -12,8 +12,8 @@
 <img src="images/city payroll_city payroll data.png?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Data Preprocessing - Game Rating Data from Data.gov.sg](http://example.com/)
+<img src="images/count_of_game_rating_by_region.png?raw=true"/>
 
 ---
 
