@@ -1,31 +1,32 @@
-## This can be your internal website page / project page
+## Learning Points from Pre-Processing of City Payroll Data 
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Description:** There were a few discrepancies in the city payroll data which need to be cleaned up before we go into hypothesis testing. I have documented some of these below.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Use of .info() method to review data count and data type
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Call the .info() method to see if there are any missing data for any particular columns and if the variables are of the desired data type. 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<img src="images/city payroll_city payroll info.png?raw=true"/>
 
-### 2. Assess assumptions on which statistical inference will be based
+We can see that there are quite a number of missing values in the Payroll Department column as compared to the rest. Fields like Projected Annual Salary and Base Pay are also classified as object data type instead of float. 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### 2. Filter out rows with null values and rename columns
 
-### 3. Support the selection of appropriate statistical tools and techniques
+To ensure that every column has similar number of non-null rows to facilitate our analysis, we can call the pd.notnull() method to filter out rows with null values.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/city payroll_filter null.png?raw=true"/>
+<img src="images/city payroll_city payroll info (after filtering null).png?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+Now, every column has 231463 non-null rows.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+### 3. Removing $ symbol and convert data to float
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+We will also need to remove the '$' symbol and convert the salary data to float before we proceed to conduct the hypothesis tests.
+To remove the '$' symbol, we can call the string replace() method to replace '$' with '' (i.e. blank).
+To convert data to float, we can call the pandas DataFrame.astype() method.
+
+<img src="images/city payroll_remove dollar sign symbol.png?raw=true"/>
+<img src="images/city payroll_convert datatype to float.png?raw=true"/>
+<img src="images/city payroll_after converting datatype to float.png?raw=true"/>
+
+Now, we can proceed to perform the hypothesis tests.
