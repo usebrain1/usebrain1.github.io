@@ -72,11 +72,25 @@ We can also use the independent samples t-test to compare the price of houses bu
 
 As the p value is much lower than 0.05, we can reject the null hypothesis and conclude that the price of houses built before and after 1960 are not similar.
 
+### 10. Finding out whether sales price is affected by the type of land contour (chi square test)
 
+Next, let's try using chi square test to find out if sales price is affected by the type of land contour. Chi square test is typically used to compare categorical variables. However, we note that sales price is a continuous variable. As such, we will need to cut our sale price data into different categories (e.g. high price, medium price, low price) before we apply the chi square test.
 
+<img src="images/chi square test.png?raw=true"/>
 
+Plot the frequency table to be applied to the chi square test.
 
+<img src="images/chi square test (freq table).png?raw=true"/>
 
+As the p value is much lower than 0.05, we can reject the null hypothesis and conclude that there is a relationship between sales price of houses and the type of land contour. To better visualise the relationship of a categorical grouping variable (e.g. land contour) vs. a continuous outcome variable (e.g. sale price), we can use boxplot.
 
+<img src="images/chi square test (box plot).png?raw=true"/>
 
+### 11. Comparing mean housing price for various types of land contour (anova test)
+
+By comparing the mean housing price of various types of land contour, we can also deduce whether land contour affects housing price. As there are more than 2 different types of land contour, we use the anova test. 
+
+<img src="images/One way Anova.png?raw=true"/>
+
+Given that the p value is much lower than 0.05, we can reject the null hypothesis and conclude that the mean sale price of houses with different land contours are not all the same.
 
