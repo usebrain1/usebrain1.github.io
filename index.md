@@ -8,8 +8,8 @@
 <img src="images/Overview.png?raw=true"/>
 
 ---
-[Data Preprocessing - City Payroll Data](/city payroll_city payroll data)
-<img src="images/city payroll data.png?raw=true"/>
+[Data Preprocessing - City Payroll Data](/city payroll data)
+<img src="images/city payroll_city payroll data.png?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
