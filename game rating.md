@@ -40,4 +40,4 @@ Finally, we can proceed with the chi-square test to determine if there is a rela
 
 <img src="images/region_rating_chi square test.png?raw=true"/>
 
-Given that the p value is higher than 0.05, we fail to reject the null hypothesis. We can conclude that there is no relationship between the region and game rating.
+Given that the p value is higher than 0.05, we fail to reject the null hypothesis. We cannot conclude that there is a relationship between the region and game rating.
