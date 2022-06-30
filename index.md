@@ -16,8 +16,7 @@
 <img src="images/count_of_game_rating_by_region.png?raw=true"/>
 
 ---
-[Visualisation of Daily Revenue and Purchases]
-<a href="https://usebrain1.github.io/">Visualisation of Daily Revenue and Purchases</a>
+<a href="https://usebrain1.github.io/pdf/Daily Revenue and Purchases.pdf">Visualisation of Daily Revenue and Purchases</a>
 <img src="images/Daily_Revenue/Graph.png?raw=true"/>
 ---
 
