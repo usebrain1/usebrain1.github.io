@@ -18,7 +18,7 @@
 ---
 [Visualisation of Daily Revenue and Purchases]
 <a href="https://usebrain1.github.io/">Visualisation of Daily Revenue and Purchases</a>
-
+<img src="images/Daily_Revenue/Graph.png?raw=true"/>
 ---
 
 
