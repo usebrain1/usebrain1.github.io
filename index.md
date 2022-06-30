@@ -18,9 +18,10 @@
 ---
 <a href="https://usebrain1.github.io/pdf/Daily Revenue and Purchases.pdf">Visualisation of Daily Revenue and Purchases</a>
 <img src="images/Daily_Revenue/Graph.PNG?raw=true"/>
+
 ---
-
-
+<a href="https://usebrain1.github.io/pdf/Analysis of Booking Cancellation Reasons.pdf">Analysis of Booking Cancellation Reasons using Python ‘spaCy’ Library</a>
+<img src="images/Cancellation Reasons.PNG?raw=true"/>
 
 ---
 
