@@ -34,6 +34,7 @@
 
 ---
 <a href="https://usebrain1.github.io/pdf/Traffic Signs Recognition using CNN.pdf">Traffic Signs Recognition using CNN</a>
+<p>
 <img src="images/Traffic Signs Recognition using CNN.PNG?raw=true"/>
 
 ---
