@@ -29,3 +29,16 @@
 <img src="images/PowerBI Visualisation (DMV AV Report).PNG?raw=true"/>
 
 ---
+<a href="https://usebrain1.github.io/pdf/Lane Line Detection using OpenCV.pdf">Lane Line Detection using OpenCV</a>
+<img src="images/Finding Lanes.PNG?raw=true"/>
+
+---
+<a href="https://usebrain1.github.io/pdf/Traffic Signs Recognition using CNN.pdf">Traffic Signs Recognition using CNN</a>
+<img src="images/Traffic Signs Recognition using CNN.PNG?raw=true"/>
+
+---
+<a href="https://usebrain1.github.io/pdf/Behavioural Cloning - Udacity Self-driving Car Simulator.pdf">Behavioural Cloning - Udacity Self-driving Car Simulator</a>
+<img src="images/Udacity Self-Driving Car Simulator.PNG?raw=true"/>
+<img src="images/Udacity Self-Driving Car Simulator 2.PNG?raw=true"/>
+
+---
